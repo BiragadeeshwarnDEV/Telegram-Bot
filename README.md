@@ -5,9 +5,10 @@ Code:
 from telegram import *
 from telegram.ext import *
 
-bot = Bot("1891311861:AAGn4suWUH1Lg3p4OAwWIHbDXKw9XHHk6ZY")
+bot = Bot("TOKEN")
 #print(bot.get_me())
-updater = Updater("1891311861:AAGn4suWUH1Lg3p4OAwWIHbDXKw9XHHk6ZY",use_context=True)
+updater = Updater("TOKEN",use_context=True)
+
 
 dispatcher = updater.dispatcher
 
